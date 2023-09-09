@@ -149,7 +149,7 @@ def rnn_model(X_train, Y_train, X_test, Y_test, look_back):
 ```
 
 ## Note
-This is a working project and doesn't cover advanced features like hyperparameter tuning, feature selection, etc yet (I'm working on it).
+This is a working project and doesn't cover advanced features like hyperparameter tuning, feature selection, or advanced training regimes etc yet (I'm working on it).
 Reinforcement learning models are also not fully covered in the first iteration - I will add that as I go.
 
 ## Disclaimer
