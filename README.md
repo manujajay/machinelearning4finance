@@ -16,13 +16,13 @@ This repository contains Python scripts that demonstrates various machine learni
 
 The script includes the following models:
 
-- Logistic Regression
-- Linear Regression
-- Naive Bayes
-- Random Forest
-- Simple LSTM (Long Short-Term Memory)
-- Simple RNN (Recurrent Neural Network)
-- Q-Learning (Basic form of reinforcement learning)
+- 1. Logistic Regression
+- 2. Linear Regression
+- 3. Naive Bayes
+- 4. Random Forest
+- 5. Simple LSTM (Long Short-Term Memory)
+- 6. Simple RNN (Recurrent Neural Network)
+- 7. Q-Learning (Basic form of reinforcement learning)
 
 ## Dependencies
 
