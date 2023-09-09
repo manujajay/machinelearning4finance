@@ -1,0 +1,5 @@
+1. Satellite Image Providers: Platforms like Sentinel Hub, NASA EarthData, or even Google Earth Engine can provide the raw satellite images
+ you'd need.
+2. Image Processing Libraries: OpenCV for basic image processing tasks, or specialized libraries like Rasterio for geospatial data.
+3. Machine Learning Libraries: TensorFlow or PyTorch for any predictive models you might want to develop.
+4. Data Visualization: Libraries like Matplotlib for static charts or Dash/Plotly for interactive dashboards.

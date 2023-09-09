@@ -1,0 +1,1 @@
+# Create a bot that uses technical or statistical signals to make trades.

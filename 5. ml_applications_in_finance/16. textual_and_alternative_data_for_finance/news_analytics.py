@@ -1,0 +1,1 @@
+# Create a real-time dashboard that uses NLP to analyze financial news for keywords and sentiments that could be trading signals.

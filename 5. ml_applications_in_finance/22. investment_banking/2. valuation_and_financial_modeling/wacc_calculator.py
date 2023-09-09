@@ -1,0 +1,1 @@
+#  A tool to automatically calculate the Weighted Average Cost of Capital (WACC), a key metric in many valuation models.

@@ -1,0 +1,1 @@
+# Create a tool that decomposes the returns of a portfolio into various factors like market, sector, and stock selection.

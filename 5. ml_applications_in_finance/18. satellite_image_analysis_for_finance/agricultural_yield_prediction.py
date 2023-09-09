@@ -1,0 +1,1 @@
+# Analyze satellite images for signs of crop health and size. These metrics can provide insights into future commodity prices.

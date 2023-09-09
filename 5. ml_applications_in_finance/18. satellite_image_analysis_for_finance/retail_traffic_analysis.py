@@ -1,0 +1,2 @@
+# Use satellite imagery to count cars in the parking lots of retail stores. This can serve as an alternative data source
+# for estimating store popularity, sales, or even economic trends in a given area.

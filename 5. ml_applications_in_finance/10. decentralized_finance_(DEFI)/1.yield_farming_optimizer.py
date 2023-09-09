@@ -1,0 +1,2 @@
+# Write a script that interfaces with various DeFi protocols to find the best yield farming opportunities. 
+# Use APIs to get real-time data on interest rates and automatically suggest or even reallocate assets.

@@ -1,0 +1,1 @@
+# Use Optical Character Recognition (OCR) to read invoices and input data into a database or accounting software.

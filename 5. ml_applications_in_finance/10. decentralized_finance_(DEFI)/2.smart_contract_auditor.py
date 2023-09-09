@@ -1,0 +1,2 @@
+# Build a tool to evaluate the security and efficiency of smart contracts on blockchain platforms like Ethereum.
+#  Utilize formal verification or static analysis libraries to identify vulnerabilities.

@@ -1,0 +1,2 @@
+# Create a machine learning model for predicting stock prices or credit scores, and incorporate SHAP (Shapley Additive exPlanations)
+# or LIME (Local Interpretable Model-agnostic Explanations) for interpretability.

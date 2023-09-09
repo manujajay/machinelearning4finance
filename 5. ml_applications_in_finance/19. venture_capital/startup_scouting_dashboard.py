@@ -1,0 +1,2 @@
+# Create a dashboard that aggregates information from various sources like Crunchbase, Twitter, and academic journals
+# to identify promising startups for investment. You could use web scraping and NLP techniques to get this data.

@@ -1,0 +1,1 @@
+# Scrape Reddit data to perform sentiment analysis and correlate this with stock or cryptocurrency trends.

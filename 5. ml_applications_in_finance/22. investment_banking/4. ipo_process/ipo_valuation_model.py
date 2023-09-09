@@ -1,0 +1,1 @@
+# Create a model to estimate the potential valuation of a company considering an initial public offering (IPO).

@@ -1,0 +1,1 @@
+#  Implement a full-fledged app that helps individuals manage their investments, budgets, and financial goals.

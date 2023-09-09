@@ -1,0 +1,2 @@
+# Create a tool that assesses potential and current investments for their Environmental, Social, and Governance (ESG) impact,
+# potentially using Natural Language Processing to scan through company reports and news articles for relevant information.

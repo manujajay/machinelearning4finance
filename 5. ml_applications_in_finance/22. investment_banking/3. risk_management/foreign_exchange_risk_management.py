@@ -1,0 +1,1 @@
+# Implement a tool to simulate various hedging strategies for managing foreign exchange risk in cross-border deals.
