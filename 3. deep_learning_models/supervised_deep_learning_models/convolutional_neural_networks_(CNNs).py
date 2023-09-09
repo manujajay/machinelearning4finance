@@ -1,0 +1,1 @@
+# CNNs are often supervised models (labeled data used for training), primarily used for image classification

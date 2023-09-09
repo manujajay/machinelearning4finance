@@ -82,12 +82,6 @@ class QLearningAgent:
         target = reward + self.gamma * np.max(self.q_table[next_state, :])
         self.q_table[state, action] += self.alpha * (target - predict)
 
-    
-'''Certainly, I can help you create a separate script for the reinforcement learning (RL) part using Q-learning and import it
-into the main script. Due to the interactive nature of reinforcement learning, the Q-learning part may not be directly comparable
-other models in terms of mean squared error. For simplicity, let's assume the RL agent can either buy, sell, or hold at each time step.
-It will receive a reward based on how well it performs these actions.'''
-
 def reinforcement_learning_q_learning(data, look_back=1):
     n_actions = 3  # Buy, Sell, Hold
     agent = QLearningAgent(len(data) - look_back, range(n_actions))
