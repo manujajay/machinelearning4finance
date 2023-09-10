@@ -89,7 +89,7 @@ if __name__ == "__main__":
         "This diversity ensures that each decision tree is different and prevents overfitting.\n"
         "\n2. Decision Trees: Each subset of data constructs a decision tree. Unlike a single decision tree that uses all features to make a decision at each node, "
         "Random Forest selects a random subset of features for every node split. This randomness contributes to 'decorrelating' the trees, thereby boosting the model's performance.\n"
-        "\n3. Features: In your case, features like the previous day's stock price and S&P 500 index could be dominant factors in market movements. "
+        "\n3. Features: In our case, features like the previous day's stock price and S&P 500 index could be dominant factors in market movements. "
         "Interest rates influence investment sentiment, GDP growth rates show economic health, and unemployment rates can reflect consumer spending, all affecting the stock price. "
         "Random Forest takes all these features into account for each tree.\n"
         "\n4. Prediction: Once all trees are built, the model makes a prediction for a new data point by letting each tree in the ensemble 'vote' for a class. "
