@@ -11,7 +11,7 @@ This repository contains various machine learning and deep learning models appli
 - [5. Data Preprocessing](#5-data-preprocessing)
 - [6. Usage](#6-usage)
 - [7. Models Explained](#7-models-explained)
-- [8. Beyond Core Machine Learning Models](#8-beyond-core-machine-learning-models-real-world-applications-in-finance)
+- [8. Beyond The Models: Real-World Applications in Finance](#8-beyond-the-models-real-world-applications-in-finance)
 - [9. Disclaimer](#9-disclaimer)
 
 ## 1. Models Included
@@ -130,7 +130,7 @@ GANs are used for simulating different market conditions, helping in risk assess
 Q-Learning is a type of model-free reinforcement learning algorithm used here for stock trading.
 ![Q-Learning](./4.%20reinforcement_learning_models/Q_Learning_Stock_Trading_YFinance.png)
 
-## 8. Beyond Core Machine Learning Models: Real-World Applications in Finance
+## 8. Beyond The Models: Real-World Applications in Finance
 
 In addition to the core machine learning models that form the backbone of this repository, we'll explore practical applications that span various dimensions of the financial sector. Below is a snapshot of the project's tree structure that gives you an idea of what these applications are:
 
