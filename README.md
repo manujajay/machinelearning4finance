@@ -27,10 +27,12 @@ The repository consists of the following categories:
     - Clustering (K-means)
     - Dimensionality Reduction (PCA)
 3. **Deep Learning Models**
-    - Recurrent Neural Networks (LSTM)
-    - Convolutional Neural Networks (CNN)
-    - Autoencoders
-    - Generative Adversarial Networks (GANs)
+    - Supervised Deep Learning Models
+       - Recurrent Neural Networks (LSTM)
+       - Convolutional Neural Networks (CNN)
+    - Unsupervised Deep Learning Models
+       - Autoencoders
+       - Generative Adversarial Networks (GANs)
 4. **Reinforcement Learning Models**
     - Q-Learning
 
@@ -116,12 +118,28 @@ PCA is used to reduce the number of features in a dataset while retaining the mo
 
 ### 3. Deep Learning Models
 
-#### 3.1 Autoencoders
+#### 3.1 Supervised Deep Learning Models
+
+##### 3.1.1 Recurrent Neural Networks (RNNs/LSTM)
+Recurrent Neural Networks, particularly using Long Short-Term Memory (LSTM) units, are highly effective for sequence prediction problems. In finance, they can be used for time-series forecasting like stock price predictions.
+
+![RNNs/LSTM](./3.%20deep_learning_models/Apple_Stock_Price_Prediction.png)
+
+##### 3.1.2 Convolutional Neural Networks (CNNs)
+Convolutional Neural Networks are primarily used in image recognition but can also be applied in finance for pattern recognition in price charts or for processing alternative data types like satellite images for agriculture commodity predictions.
+
+![CNNs](./3.%20deep_learning_models/supervised_deep_learning_models/2.%20convolutional_neural_networks_(CNNs).png)
+
+#### 3.2 Unsupervised Deep Learning Models
+
+##### 3.2.1 Autoencoders
 Autoencoders are used for anomaly detection in financial data, identifying unusual patterns that do not conform to expected behavior.
+
 ![Autoencoders](./3.%20deep_learning_models/Anomaly_Detection_Using_Autoencoder.png)
 
-#### 3.2 Generative Adversarial Networks (GANs)
+##### 3.2.2 Generative Adversarial Networks (GANs)
 GANs are used for simulating different market conditions, helping in risk assessment for various investment strategies.
+
 ![GANs](./3.%20deep_learning_models/GAN_Financial_Simulation.png)
 
 ### 4. Reinforcement Learning Models
