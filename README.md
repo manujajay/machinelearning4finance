@@ -11,6 +11,7 @@ This repository contains various machine learning and deep learning models appli
 - [Data Preprocessing](#data-preprocessing)
 - [Usage](#usage)
 - [Models Explained](#models-explained)
+- [Beyond Core Machine Learning Models](#beyond-core-machine-learning-models-real-world-applications-in-finance)
 
 ## Models Included
 
@@ -127,6 +128,45 @@ GANs are used for simulating different market conditions, helping in risk assess
 #### 4.1 Q-Learning
 Q-Learning is a type of model-free reinforcement learning algorithm used here for stock trading.
 ![Q-Learning](./4.%20reinforcement_learning_models/Q_Learning_Stock_Trading_YFinance.png)
+
+## Beyond Core Machine Learning Models: Real-World Applications in Finance
+
+In addition to the core machine learning models that form the backbone of this repository, we'll explore practical applications that span various dimensions of the financial sector. Below is a snapshot of the project's tree structure that gives you an idea of what these applications are:
+
+```
+5. ml_applications_in_finance
+│   ├── risk_management
+│   ├── decentralized_finance_(DEFI)
+│   ├── environmental_social_and_governance_investing_(ESG)
+│   ├── behavioural_economics
+│   ├── blockchain_and_cryptocurrency
+│   ├── explainable_AI_for_finance
+│   ├── robotic_process_automation_(RPA)
+│   ├── textual_and_alternative_data_for_finance
+│   ├── fundamental_analysis
+│   ├── satellite_image_analysis_for_finance
+│   ├── venture_capital
+│   ├── asset_management
+│   ├── private_equity
+│   ├── investment_banking
+│   ├── trading
+│   ├── portfolio_management
+│   ├── wealth_management
+│   ├── multi_asset_risk_model
+│   ├── personal_financial_management_app
+│   ├── market_analysis_and_prediction
+│   ├── customer_service
+│   ├── compliance_and_regulatory
+│   ├── real_estate
+│   ├── supply_chain_finance
+│   ├── invoice_management
+│   └── cash_management
+```
+
+From risk management to blockchain and cryptocurrency, from venture capital to investment banking, and from asset management to personal financial management, we aim to cover a wide array of use-cases. Each of these applications is backed by one or more of the machine learning models described earlier in the repository.
+
+**Note**: The list of applications is not exhaustive, and the project is a work in progress. While I aim to continually update it with new techniques and applications, there might be instances where certain modules may be added or removed based on their relevance and effectiveness.
+
 
 ## Disclaimer
 
