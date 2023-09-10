@@ -86,7 +86,7 @@ python script_name.py
 
 ### Supervised Learning Models
 
-![Linear Regression](./1.supervised_learning_models/linear_regression_summary_with_explanation.png)
+![Linear Regression](/1.supervised_learning_models/linear_regression_summary_with_explanation.png)
 #### Linear Regression
 Linear Regression tries to fit a linear equation to the data, providing a straightforward and effective method for simple predictive tasks.
 
