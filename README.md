@@ -4,16 +4,17 @@ This repository contains various machine learning and deep learning models appli
 
 ## Table of Contents
 
-- [Models Included](#models-included)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Data Fetching](#data-fetching)
-- [Data Preprocessing](#data-preprocessing)
-- [Usage](#usage)
-- [Models Explained](#models-explained)
-- [Beyond Core Machine Learning Models](#beyond-core-machine-learning-models-real-world-applications-in-finance)
+- [1. Models Included](#models-included)
+- [2. Dependencies](#dependencies)
+- [3. Installation](#installation)
+- [4. Data Fetching](#data-fetching)
+- [5. Data Preprocessing](#data-preprocessing)
+- [6. Usage](#usage)
+- [7. Models Explained](#models-explained)
+- [8. Beyond Core Machine Learning Models](#beyond-core-machine-learning-models-real-world-applications-in-finance)
+- [8. Disclaimer](#disclaimer)
 
-## Models Included
+## 1. Models Included
 
 The repository consists of the following categories:
 
@@ -33,7 +34,7 @@ The repository consists of the following categories:
 4. **Reinforcement Learning Models**
     - Q-Learning
 
-## Dependencies
+## 2. Dependencies
 
 - Python 3.x
 - yfinance
@@ -41,7 +42,7 @@ The repository consists of the following categories:
 - TensorFlow
 - Scikit-learn
 
-## Installation
+## 3. Installation
 
 To install all dependencies, run:
 
@@ -49,7 +50,7 @@ To install all dependencies, run:
 pip install yfinance numpy tensorflow scikit-learn
 ```
 
-## Data Fetching
+## 4. Data Fetching
 Data is fetched using the yfinance library for real-world financial data.
 
 ```python
@@ -59,7 +60,7 @@ def fetch_data(ticker, start_date, end_date):
     return yf.download(ticker, start=start_date, end=end_date)['Close'].values
 ```
 
-## Data Preprocessing
+## 5. Data Preprocessing
 
 Data is preprocessed to create training and testing datasets, which are then fed into machine learning models.
 
@@ -75,7 +76,7 @@ def create_dataset(data, look_back=1):
     return np.array(X), np.array(Y)
 ```
 
-## Usage
+## 6. Usage
 
 Navigate to the respective folder and run the Python script for the model you're interested in.
 
@@ -83,7 +84,7 @@ Navigate to the respective folder and run the Python script for the model you're
 python script_name.py
 ```
 
-## Models Explained
+## 7. Models Explained
 
 ### 1. Supervised Learning Models
 
@@ -129,7 +130,7 @@ GANs are used for simulating different market conditions, helping in risk assess
 Q-Learning is a type of model-free reinforcement learning algorithm used here for stock trading.
 ![Q-Learning](./4.%20reinforcement_learning_models/Q_Learning_Stock_Trading_YFinance.png)
 
-## Beyond Core Machine Learning Models: Real-World Applications in Finance
+## 8. Beyond Core Machine Learning Models: Real-World Applications in Finance
 
 In addition to the core machine learning models that form the backbone of this repository, we'll explore practical applications that span various dimensions of the financial sector. Below is a snapshot of the project's tree structure that gives you an idea of what these applications are:
 
