@@ -86,47 +86,47 @@ python script_name.py
 
 ### Supervised Learning Models
 
-![Linear Regression](./1.%20supervised_learning_models/linear_regression_summary_with_explanation.png)
 #### Linear Regression
 Linear Regression tries to fit a linear equation to the data, providing a straightforward and effective method for simple predictive tasks.
+![Linear Regression](./1.%20supervised_learning_models/linear_regression_summary_with_explanation.png)
 
-![Logistic Regression](./1.%20supervised_learning_models/logistic_regression_summary_with_explanation.png)
 #### Logistic Regression
 Logistic Regression is traditionally used for classification problems but has been adapted here for regression tasks.
+![Logistic Regression](./1.%20supervised_learning_models/logistic_regression_summary_with_explanation.png)
 
-![Naive Bayes](./1.%20supervised_learning_models/naive_bayes_summary_with_explanation.png)
 #### Naive Bayes
 Naive Bayes is particularly useful when you have a small dataset and is based on Bayes' theorem.
+![Naive Bayes](./1.%20supervised_learning_models/naive_bayes_summary_with_explanation.png)
 
-![Random Forest](./1.%20supervised_learning_models/random_forest_summary_with_explanation.png)
 #### Random Forest
 Random Forest combines multiple decision trees to make a more robust and accurate prediction model.
+![Random Forest](./1.%20supervised_learning_models/random_forest_summary_with_explanation.png)
 
 ### Unsupervised Learning Models
 
-![K-means](./2.%20unsupervised_learning_models/kmeans_financial_data_with_explanation.png)
 #### Clustering (K-means)
 K-means clustering is used to partition data into groups based on feature similarity.
+![K-means](./2.%20unsupervised_learning_models/kmeans_financial_data_with_explanation.png)
 
-![PCA](./2.%20unsupervised_learning_models/PCA_financial_data_with_full_explanation.png)
 #### Dimensionality Reduction (PCA)
 PCA is used to reduce the number of features in a dataset while retaining the most relevant information.
+![PCA](./2.%20unsupervised_learning_models/PCA_financial_data_with_full_explanation.png)
 
 ### Deep Learning Models
 
-![Autoencoders](./3.%20deep_learning_models/Anomaly_Detection_Using_Autoencoder.png)
 #### Autoencoders
 Autoencoders are used for anomaly detection in financial data, identifying unusual patterns that do not conform to expected behavior.
+![Autoencoders](./3.%20deep_learning_models/Anomaly_Detection_Using_Autoencoder.png)
 
-![GANs](./3.%20deep_learning_models/GAN_Financial_Simulation.png)
 #### Generative Adversarial Networks (GANs)
 GANs are used for simulating different market conditions, helping in risk assessment for various investment strategies.
+![GANs](./3.%20deep_learning_models/GAN_Financial_Simulation.png)
 
 ### Reinforcement Learning Models
 
-![Q-Learning](./4.%20reinforcement_learning_models/Q_Learning_Stock_Trading_YFinance.png)
 #### Q-Learning
 Q-Learning is a type of model-free reinforcement learning algorithm used here for stock trading.
+![Q-Learning](./4.%20reinforcement_learning_models/Q_Learning_Stock_Trading_YFinance.png)
 
 ## Disclaimer
 
