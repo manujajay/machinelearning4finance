@@ -128,7 +128,7 @@ Recurrent Neural Networks, particularly using Long Short-Term Memory (LSTM) unit
 ##### 3.1.2 Convolutional Neural Networks (CNNs)
 Convolutional Neural Networks are primarily used in image recognition but can also be applied in finance for pattern recognition in price charts or for processing alternative data types like satellite images for agriculture commodity predictions.
 
-![CNNs](./3.%20deep_learning_models/supervised_deep_learning_models/2.%20convolutional_neural_networks_(CNNs).png)
+![CNNs](./3.%20deep_learning_models/Financial_News_Sentiment_Analysis.png)
 
 #### 3.2 Unsupervised Deep Learning Models
 
