@@ -1,5 +1,10 @@
 # Use of supervised algorithms to predict the likelihood of a borrower defaulting on a loan.
 
+'''
+Python script for credit scoring using machine learning. We'll use scikit-learn to create a model that predicts the creditworthiness
+of an individual based on some features like income, age, and loan amount.
+'''
+
 # Import libraries
 import pandas as pd
 import numpy as np
@@ -79,3 +84,23 @@ def predict_creditworthiness(income, age, loan_amount):
 # Example usage of the prediction function
 print(predict_creditworthiness(70000, 30, 40000))  # Should generally return "The individual is creditworthy."
 print(predict_creditworthiness(30000, 25, 60000))  # Should generally return "The individual is not creditworthy."
+
+'''
+Here's what each part of the code does:
+
+Import Libraries: The necessary Python libraries for data manipulation and machine learning are imported.
+
+Sample Data: We create a DataFrame from a dictionary, where each entry corresponds to an individual's attributes like income, age, and loan amount. The target variable is creditworthy, where 1 means the individual is creditworthy and 0 means they are not.
+
+Data Splitting: We divide the data into a training set and a test set using the train_test_split() function from scikit-learn.
+
+Model Initialization and Training: We use a Random Forest Classifier to train our model on the training set.
+
+Evaluation: We evaluate the model using the test set and print out the accuracy and confusion matrix.
+
+Prediction Function: We define a function predict_creditworthiness() that uses our trained model to predict whether an individual is creditworthy based on their income, age, and loan amount.
+
+Example Usage: We call the predict_creditworthiness() function with sample data to demonstrate how to use it.
+
+Remember that this is just a basic example. In a real-world application, you'd need a much larger dataset and you'd also spend time tuning the model and perhaps using more sophisticated methods for evaluation.
+'''
