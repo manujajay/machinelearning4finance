@@ -1,1 +1,0 @@
-# Utilizing algorithms and quantitative models to execute trades at optimal prices.

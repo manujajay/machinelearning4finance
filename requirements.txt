@@ -1,4 +1,5 @@
 absl-py==1.4.0
+altair==5.1.1
 anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1693488585952/work
 appdirs==1.4.4
 appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1649077682618/work
@@ -14,12 +15,14 @@ backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393
 backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1687772187254/work
 beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1680888073205/work
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1674535352125/work
+blinker==1.6.2
 Brotli @ file:///Users/runner/miniforge3/conda-bld/brotli-split_1693583678882/work
 cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
 cachetools==5.3.1
 certifi==2023.7.22
 cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1671179612308/work
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1688813409104/work
+click==8.1.7
 comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1691044910542/work
 contourpy==1.1.0
 cycler==0.11.0
@@ -36,6 +39,8 @@ fqdn @ file:///home/conda/feedstock_root/build_artifacts/fqdn_1638810296540/work
 fredapi==0.5.1
 frozendict==2.3.8
 gast==0.4.0
+gitdb==4.0.10
+GitPython==3.1.36
 google-auth==2.22.0
 google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
@@ -75,9 +80,11 @@ kiwisolver==1.4.5
 libclang==16.0.6
 lxml==4.9.3
 Markdown==3.4.4
+markdown-it-py==3.0.0
 MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1685769179270/work
 matplotlib==3.7.2
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1660814786464/work
+mdurl==0.1.2
 mistune @ file:///home/conda/feedstock_root/build_artifacts/mistune_1692116650819/work
 ml-dtypes==0.2.0
 multitasking==0.0.11
@@ -96,9 +103,10 @@ pandas @ file:///Users/runner/miniforge3/conda-bld/pandas_1693415364816/work
 pandas-datareader==0.10.0
 pandocfilters @ file:///home/conda/feedstock_root/build_artifacts/pandocfilters_1631603243851/work
 parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1638334955874/work
+patsy==0.5.3
 pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1667297516076/work
 pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
-Pillow==10.0.0
+Pillow==9.5.0
 pkgutil_resolve_name @ file:///home/conda/feedstock_root/build_artifacts/pkgutil-resolve-name_1633981968097/work
 platformdirs @ file:///home/conda/feedstock_root/build_artifacts/platformdirs_1690813113769/work
 ply==3.11
@@ -108,10 +116,13 @@ protobuf==4.24.3
 psutil @ file:///Users/runner/miniforge3/conda-bld/psutil_1681775196112/work
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+pyarrow==13.0.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
+pydeck==0.8.0
 Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1691408637400/work
+Pympler==1.0.1
 pyobjc-core @ file:///Users/runner/miniforge3/conda-bld/pyobjc-core_1686129336286/work
 pyobjc-framework-Cocoa @ file:///Users/runner/miniforge3/conda-bld/pyobjc-framework-cocoa_1686136009200/work
 pyparsing==3.0.9
@@ -121,6 +132,7 @@ PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_166160483914
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
 python-json-logger @ file:///home/conda/feedstock_root/build_artifacts/python-json-logger_1677079630776/work
 pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1693930252784/work
+pytz-deprecation-shim==0.1.0.post0
 PyYAML @ file:///Users/runner/miniforge3/conda-bld/pyyaml_1692737410683/work
 pyzmq @ file:///Users/runner/miniforge3/conda-bld/pyzmq_1691667591386/work
 qtconsole @ file:///home/conda/feedstock_root/build_artifacts/qtconsole-base_1693604303222/work
@@ -130,6 +142,7 @@ requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1684774241
 requests-oauthlib==1.3.1
 rfc3339-validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3339-validator_1638811747357/work
 rfc3986-validator @ file:///home/conda/feedstock_root/build_artifacts/rfc3986-validator_1598024191506/work
+rich==13.5.3
 rpds-py @ file:///Users/runner/miniforge3/conda-bld/rpds-py_1693850362535/work
 rsa==4.9
 scikit-learn==1.3.0
@@ -138,9 +151,13 @@ seaborn==0.12.2
 Send2Trash @ file:///Users/runner/miniforge3/conda-bld/send2trash_1682601407921/work
 sip @ file:///Users/runner/miniforge3/conda-bld/sip_1690986115414/work
 six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+smmap==5.0.1
 sniffio @ file:///home/conda/feedstock_root/build_artifacts/sniffio_1662051266223/work
 soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1693929250441/work
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+statsmodels==0.14.0
+streamlit==1.26.0
+tenacity==8.2.3
 tensorboard==2.12.3
 tensorboard-data-server==0.7.1
 tensorflow==2.13.0
@@ -154,13 +171,16 @@ threadpoolctl==3.2.0
 tinycss2 @ file:///home/conda/feedstock_root/build_artifacts/tinycss2_1666100256010/work
 toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
 tomli @ file:///home/conda/feedstock_root/build_artifacts/tomli_1644342247877/work
+toolz==0.12.0
 tornado @ file:///Users/runner/miniforge3/conda-bld/tornado_1692311824797/work
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1675110562325/work
 typing-utils @ file:///home/conda/feedstock_root/build_artifacts/typing_utils_1622899189314/work
 typing_extensions==4.5.0
 tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1680081134351/work
+tzlocal==4.3.1
 uri-template @ file:///home/conda/feedstock_root/build_artifacts/uri-template_1688655812972/work/dist
 urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1689789803562/work
+validators==0.22.0
 wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1673864653149/work
 webcolors @ file:///home/conda/feedstock_root/build_artifacts/webcolors_1679900785843/work
 webencodings==0.5.1

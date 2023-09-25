@@ -1,1 +1,0 @@
-# Algorithms to create a portfolio that closely follows a particular index.
